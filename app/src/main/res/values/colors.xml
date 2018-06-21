@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4f60bf</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="tab_text_color_default">#5D646E</color>
+    <color name="tab_text_color_selected">#EE1458</color>
+
+    <color name="tae_sdk_login_qr_colors_highlight">#ffff9900</color>
+
+    <color name="common_white">#fdfdfd</color>
+    <color name="common_blue">#46a0e3</color>
+
+
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+
+    <color name="white_text">#E8E9EC</color>
+
+
+    <color name="black60">#99000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black25">#40000000</color>
+
+    <color name="white50">#80ffffff</color>
+    <color name="main_color">#EE1458</color>
+    <color name="empty_text">#b6b4b4</color>
+
+    <color name="color_df">#dfdfdf</color>
+    <color name="common_blue2">#00a0e9</color>
+    <color name="common_press_bg">#e9e7e9</color>
+    <color name="common_bg_color">#F4F5F7</color>
+    <color name="color_333">#333333</color>
+    <color name="color_666">#666666</color>
+
+    <color name="home_tab_normal_color">#5D646E</color>
+    <color name="home_tab_selected_color">#212832</color>
+
+    <color name="gray_text_color">#9097A1</color>
+
+    <color name="count_text_color">#ADB4BE</color>
+
+
+</resources>

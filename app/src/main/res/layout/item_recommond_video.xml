@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/itemView"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="250dp"
+              android:orientation="vertical">
+
+
+    <com.dueeeke.videoplayer.player.IjkVideoView
+        android:id="@+id/ijk_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen10"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp">
+
+        <com.hlsp.video.view.CircleImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            app:civ_border_color="#F4F5F7"
+            app:civ_border_width="0.5dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_toRightOf="@id/iv_user_avatar"
+            android:singleLine="true"
+            android:textColor="@color/tab_text_color_default"
+            android:textSize="14sp"
+            tools:text="情感的小天地"/>
+
+
+        <TextView
+            android:id="@+id/tv_play_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/tab_text_color_default"
+            android:textSize="12sp"
+            tools:text="1208次观看"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
